@@ -1,0 +1,7 @@
+Flask
+Flask-Limiter
+gunicorn
+selenium
+python-telegram-bot
+requests
+

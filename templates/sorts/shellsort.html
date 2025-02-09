@@ -1,0 +1,35 @@
+{% extends "parents/base_sort.html" %}
+
+{% block js %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/sorts/shellsort.js') }}" defer></script>
+{% endblock %}
+
+{% block title %}
+Shell Sort
+{% endblock %}
+
+{% block info %}
+<p>
+Shell Sort is one of the oldest sorting algorithms and it's an extension of the <a href="/insertionsort">Insertion Sort</a>. This algorithm is fast and easy to implement, but it's hard to measure its performances.
+</p>
+<p>
+Unlike Insertion Sort, Shell Sort starts by comparing the elements distant from each other by a certain gap that gets progressively decreased. By starting with the most distant elements, it can optimize performances
+as it's not limited by just comparing two adjacent elements.
+</p>
+{% endblock %}
+
+{% block medio %}
+O(n<sup>1.25</sup>) <br> O(n × log n)
+{% endblock %}
+
+{% block peggiore %}
+O(n<sup>2</sup>)
+{% endblock %}
+
+{% block migliore %}
+O(n × log n)
+{% endblock %}
+
+{% block memoria %}
+O(1)
+{% endblock %}

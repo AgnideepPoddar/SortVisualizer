@@ -1,0 +1,40 @@
+{% extends "parents/base_sort.html" %}
+
+{% block js %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/sorts/bogosort.js') }}" defer></script>
+{% endblock %}
+
+{% block title %}
+Bogo Sort
+{% endblock %}
+
+{% block info %}
+<p>
+Bogo Sort (also called Stupid Sort) is an iterative sorting algorithm particularly inefficient. It's based on randomly shufflying the elements of the data structure and then checking if they are correctly sorted.
+If not, repeat the process.
+</p>
+<p>
+It is a probabilistic algorithm.
+The amount of possible permutations of a data structure of <var>n</var> elements is <var>n!</var>, so it will take on average <var>n!</var> shuffles to reach the solution.
+Each shuffle takes <var>n</var> operations, so the total average number of operations is <var>n × n!</var>
+</p>
+<p>
+Since its performances depend entirely on probability, the worst case complexity is not measurable.
+</p>
+{% endblock %}
+
+{% block medio %}
+O(n × n!)
+{% endblock %}
+
+{% block peggiore %}
+∞
+{% endblock %}
+
+{% block migliore %}
+O(n)
+{% endblock %}
+
+{% block memoria %}
+O(1)
+{% endblock %}
