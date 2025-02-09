@@ -1,44 +1,45 @@
-# Welcome to Sort Visualizer!
+# Sort Visualizer 🎨📊  
 
-https://www.sortvisualizer.com  
-**Sort Visualizer** is a web application designed to better understand sorting algorithms by displaying and visualizing them.
-In the website you can find information and implementations in multiple programming languages of more than 15 sorting algorithms, categorized by their time and space complexity.
+## 🚀 Overview  
+Sort Visualizer is an interactive web application designed to help users understand sorting algorithms through real-time visualizations. The platform provides detailed explanations and implementations of **15+ sorting algorithms** in multiple programming languages, categorized by their **time and space complexity**.  
 
-## The sorting algorithms currently available are:
+## ✨ Features  
+✅ **Visualize Sorting Algorithms** – See how different sorting algorithms work step by step.  
+✅ **Multi-Language Implementations** – Access code in multiple programming languages.  
+✅ **Custom Sorting Algorithm Support** – Design and visualize your own sorting algorithm using the documented APIs.  
+✅ **Category-Based Sorting** – Algorithms are grouped based on their efficiency.  
 
-- Quick Sort
-- Merge Sort
-- Heap Sort
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Gnome Sort
-- Shaker Sort
-- Odd Even Sort
-- Pancake Sort
-- Bitonic Sort
-- Radix Sort
-- Shell Sort
-- Comb Sort
-- Bogo Sort
+## 📌 Available Sorting Algorithms  
+- **Efficient Sorting**: Quick Sort, Merge Sort, Heap Sort, Radix Sort, Shell Sort  
+- **Comparison-Based Sorting**: Bubble Sort, Selection Sort, Insertion Sort, Comb Sort, Shaker Sort  
+- **Specialized Sorting**: Gnome Sort, Odd-Even Sort, Pancake Sort, Bitonic Sort  
+- **Fun & Experimental**: Bogo Sort, Custom Sort  
 
-## Custom Sort
+## 🛠️ Running Locally  
+To run Sort Visualizer on your machine:  
 
-It's also possible to design and visualize _your own sorting algorithm_, using the [documented APIs](https://www.sortvisualizer.com/docs). Have fun messing around and trying new stuff!
+1. **Install Python 3** (if not already installed).  
+2. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/Myphz/sortvisualizer
+   cd sortvisualizer
+   ```
+3. **Install dependencies**:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the application**:  
+   ```bash
+   python app.py
+   ```
+5. Open `http://127.0.0.1:5000/` in your browser.  
 
-## Running locally
+## 🛠️ Technologies Used  
+- **Frontend**: Vanilla JavaScript, HTML, CSS  
+- **Backend**: Flask (Python)  
 
-To run the project locally, install Python 3 on your machine, clone the repository, install all the dependencies and run the `app.py` file.
+## 🤝 Contributing  
+Feedback and contributions are always welcome! If you find a bug or have an idea for an improvement, feel free to open an issue or submit a pull request.  
 
-```console
-git clone https://github.com/Myphz/sortvisualizer
-cd sortvisualizer
-pip install -r requirements.txt
-python app.py
-```
-
-## Notes
-
-This website has been made using purely vanilla JS, HTML, CSS and Flask.
-Feedback and contributions are appreciated!
-Consider adding a :star: to this repository to support the project!
+## ⭐ Support  
+If you like this project, consider giving it a ⭐ on GitHub to show your support!  
